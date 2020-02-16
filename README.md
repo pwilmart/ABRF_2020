@@ -45,7 +45,7 @@ A scientific publication now consists of many parts. We have the main article. W
 
 ![slide 5](images/Slide5.png)
 
-This Atlantic article from a couple of years ago claims that the scientific paper is obsolete. The article was about “notebooks” could replace scientific papers.
+This Atlantic article from a couple of years ago claims that the scientific paper is obsolete. The article was about how notebooks could replace scientific papers.
 
 Link to [Atlantic article](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/)
 
