@@ -72,7 +72,8 @@ Alright, we are finally talking about Github! It is the world’s largest softwa
 
 When you are trying to learn about Git and Github, it helpful to have a mental picture of how the pieces connect. Github itself is a collection of repositories that reside in the cloud. Copies of those repositories are mirrored on your local computers. That is the distributed part. For example, I go to OHSU and work on some code. I work on a local copy of the files in a Git repository. I save my work by committing the changes. I can push those changes to the corresponding Github repo, cycle home, pull the updated code to my home PC, and continue my work. Lather, rise, and repeat. Other users may just be fetching code from the repo to run on their PCs.
 
-[Git download](https://git-scm.com/downloads) <br />
+An outstanding book: [Happy Git with R](https://happygitwithr.com/) <br />
+[Git downloads](https://git-scm.com/downloads) <br />
 [Free Git book](https://git-scm.com/book/en/v2) <br />
 [main Github site](https://github.com/) <br />
 [Github help](https://help.github.com/en/github)
