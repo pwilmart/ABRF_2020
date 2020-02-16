@@ -127,6 +127,9 @@ This is what the contents of the README.md file looks like. Markdown is more con
 
 The README file covers the sea lion analysis steps with my pipeline. It uses the target/decoy method in an interactive and visual way to control PSM FDR. High resolution, accurate mass data is not searched by specifying a narrow parent ion tolerance. Instead, a wider tolerance search is done, and delta masses of the matches are displayed (on the left for 2+ peptides). We set windows on the delta mass peaks and then generate the corresponding conditional score distributions. On the right, we have the score distributions for the 2+ peptides in the zero Da window. The decoy scores are in red and the target scores are in blue. The left histograms are semi-tryptic peptides and the right are fully tryptic peptides. The dotted lines are 1% FDR cutoffs.
 
+[PAW pipeline](https://github.com/pwilmart/PAW_pipeline) <br />
+[FASTA utilities](https://github.com/pwilmart/fasta_utilities)
+
 ---
 
 ![slide 17](images/Slide17.png)
