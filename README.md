@@ -2,7 +2,7 @@
 
 ## Github: a powerful resource for scientific communications
 
-### talk presented by Phillip Wilmarth, OHSU.
+### talk presented by Phillip Wilmarth, OHSU
 
 ---
 
