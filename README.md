@@ -1,6 +1,10 @@
-# ABRF_2020
+# ABRF 2020 Meeting
 
-## ARBF 2020 meeting talk "Github: a powerful resource for scientific communications" presented by Phillip Wilmarth, OHSU.
+## Github: a powerful resource for scientific communications
+
+### talk presented by Phillip Wilmarth, OHSU.
+
+---
 
 ### ABRF 2020: Empowering Team Science
 February 29 - March 3 <br />
