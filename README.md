@@ -1,19 +1,19 @@
 # ABRF_2020
 
-## Content for the ARBF 2020 meeting talk "Github: a powerful resource for scientific communications" presented by Phillip Wilmarth, OHSU.
+## ARBF 2020 meeting talk "Github: a powerful resource for scientific communications" presented by Phillip Wilmarth, OHSU.
 
-### ABRF 2020: Empowering Team Science <br />
+### ABRF 2020: Empowering Team Science
 February 29 - March 3 <br />
 Palm Springs, California
 
-#### Proteomics Data Science: Online Data resources <br />
+#### Proteomics Data Science: Online Data resources
 Monday, March 2, 3:30pm - 5:00 pm
 
 ---
 
 ![slide 1](images/Slide1.png)
 
-I would like to thank the organizers for this opportunity to tell you about using Github to do scientific communication resource. Github is not a proteomics resource like UniProt. Github is something that you can use to create *your* own proteomics resources.
+I would like to thank the organizers for this opportunity to tell you about using Github to do scientific communication resource. Github is not a proteomics resource like UniProt. Github is something that you can use to create **your own proteomics resources**.
 
 ---
 
@@ -27,6 +27,8 @@ The center piece of scientific communication is the publication. They used to be
 
 Now everything is electronic – journals and papers. Here is a 2017 MCP paper where the IRS normalization method for multi-plex TMT experiments was first described. We have the article in there somewhere, but there is a lot screen real estate devoted to other things.
 
+Link to MCP article: [Plubell, et al.](https://www.mcponline.org/content/16/5/873.short)
+
 ---
 
 ![slide 4](images/Slide4.png)
@@ -39,11 +41,16 @@ A scientific publication now consists of many parts. We have the main article. W
 
 This Atlantic article from a couple of years ago claims that the scientific paper is obsolete. The article was about “notebooks” could replace scientific papers.
 
+Link to [Atlantic article](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/)
+
 ---
 
 ![slide 6](images/Slide6.png)
 
 The Atlantic article was about Mathematica notebooks and open source Jupyter notebooks. These notebooks are web server applications with some connection to a local programming environment. You create and interact with notebooks through web browsers. You can think of notebooks as data analysis stories told through a linear series of cells. These cells can rich text formatting (like a web page), executable code cells (typically Python or R), and the output (graphics and text) from the code cells. I mostly use Jupyter notebooks, but R Markdown is similar. Notebooks are perfect for data analysis stories.
+
+[Jupyter notebooks](https://jupyter.org/) <br />
+[R Markdown](https://rmarkdown.rstudio.com/)
 
 ---
 
@@ -57,11 +64,18 @@ I think that life science research is too complex to replace with notebooks. How
 
 Alright, we are finally talking about Github! It is the world’s largest software hosting service and uses Git distributed version control. Github has grown rapidly and is enormous. Github has strong support for Jupyter notebooks and hosts about 6.4 million notebooks currently. Github has a lot of additional functionality: it facilitates collaborative work on software (and other) projects, it acts like a syncing service to protect your files, and it supports web content creation and hosting.
 
+[Wikipedia entry for Github](https://en.wikipedia.org/wiki/GitHub)
+
 ---
 
 ![slide 9](images/Slide9.png)
 
 When you are trying to learn about Git and Github, it helpful to have a mental picture of how the pieces connect. Github itself is a collection of repositories that reside in the cloud. Copies of those repositories are mirrored on your local computers. That is the distributed part. For example, I go to OHSU and work on some code. I work on a local copy of the files in a Git repository. I save my work by committing the changes. I can push those changes to the corresponding Github repo, cycle home, pull the updated code to my home PC, and continue my work. Lather, rise, and repeat. Other users may just be fetching code from the repo to run on their PCs.
+
+[Git download](https://git-scm.com/downloads) <br />
+[Free Git book](https://git-scm.com/book/en/v2) <br />
+[main Github site](https://github.com/) <br />
+[Github help](https://help.github.com/en/github)
 
 ---
 
@@ -75,11 +89,15 @@ Git and Github are complicated topics that take some serious time and effort to 
 
 This is my Github site. There is profile information on the left. You can pin up to 6 repositories to the landing page. I have a couple of repos about IRS data normalization, one for tandem mass tag data analysis examples, my proteomics pipeline software, some utilities for managing FASTA protein databases, and even this talk. Each Github account can also have a dedicated website.
 
+https://github.com/pwilmart
+
 ---
 
 ![slide 12](images/Slide12.png)
 
 Flexible web hosting and content creation is one of the best features of Github. I mostly use my main Github website for some blogging on proteomics topics. Each individual repository can also have an associated web page. The repo web pages often used for documentation, vignettes, and tutorials. Each repository can also have a README file, written in Github markdown, that gets automatically rendered as web content.
+
+https://pwilmart.github.io/
 
 ---
 
@@ -87,11 +105,15 @@ Flexible web hosting and content creation is one of the best features of Github.
 
 One of the things you can do at Github is demonstrate data analysis topics using publicly available data. Real world examples are a more powerful way to reach your audience. I have an interest in how to analyze data from less common organisms. I heard a presentation from Ben Neely about proteomics on marine mammals at last year’s ASMS meeting. Their group published a paper about California sea lion urine samples to probe kidney disease. When that paper was published, a sea lion genome was not available. They used a combined seal and walrus protein database. The sea lion genome has since been sequenced and I was curious how the results would change if a sea lion protein database was used. I repeated the analysis with the sea lion database and my open source pipeline that uses MSConvert for RAW file access and Comet for database searching.
 
+JPR article: [Neely, et al.](https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.8b00416)
+
 ---
 
 ![slide 14](images/Slide14.png)
 
 This is the repository for the re-analysis. The URL is at the top. On the left, we have the start of the repository with a description, some tags, and the list of files. Github is designed to be a code repository, so we see the files first with some versioning information. If we scroll to the bottom of the files (on the right), we see the README markdown file displayed as rich web content. We have headers, text, a hyperlink to the data archive, and a list.
+
+https://github.com/pwilmart/Sea_lion_urine_SpC
 
 ---
 
@@ -123,17 +145,23 @@ The study had 8 sea lions without any kidney disease and 11 sea lions with kidne
 
 The repo has a separate Jupyter R notebook to do some basic quality control processing. The control samples are in blue. The infected samples are in red. The boxplots of the spectral count distributions have 3 infected samples with low count distributions. If we drop those, we still have an 8 by 8 comparison. We can also do some clustering analysis. The plot on the right is a multi-dimensional scaling plot. The two groups are well separated. There are many other R clustering package options that could also be used.
 
+[QC notebook](https://pwilmart.github.io/TMT_analysis_examples/PXD009019_QC_check.html)
+
 ---
 
 ![slide 20](images/Slide20.png)
 
 Each biological sample was analyzed in a single LC run. We had close to 2,300 identified proteins. How many of those can we quantify? If we compute the average spectral count per protein for the samples, we can sort our count table by decreasing average counts. We can count the cells with missing data in the table as a function of protein, from the highest abundance to the lowest abundance (the average SpC) and count all the cells. We can plot the average SpC on the x-axis and the fraction of missing data on the y-axis using another notebook. When we get to small average SpC, we see a sharp rise in missing data. The dotted line is an average SpC of 2.5. That has 669 quantifiable proteins. While this is only 30% of the identified proteins, those 669 proteins account for almost 90% of the total spectral counts observed in the experiment. Using such a cutoff eliminates most of the missing data and its complications.
 
+[Quantifiable cutoff notebook](https://pwilmart.github.io/TMT_analysis_examples/PXD009019_average_missing.html)
+
 ---
 
 ![slide 21](images/Slide21.png)
 
 We used the Bioconductor package edgeR to do the statistical testing in an R notebook. Here are just a couple of the many visualizations. We have a scatter plot on the left with differential candidates colored by some significance cuts. We are using Benjamini-Hochberg corrected p-values for significance. We can also make MA plots (commonly used in genomics) where we have separated the DE candidates. The unchanged proteins in purple have mostly less than 2-fold changes. The orange proteins with FDR less than 0.01 have much larger than 2-fold changes.
+
+[Differential expression notebook](https://pwilmart.github.io/TMT_analysis_examples/PXD009019_SpC_DE.html)
 
 ---
 
@@ -147,11 +175,16 @@ The sea lion database made a big improvement. We identified close to 2,300 urine
 
 Mapping protein lists from less common species to human or mouse is something I end up doing all the time. It is a little complicated and was perfect for a blog post. We are basically going to use a locally installed BLAST program to align all sea lion sequences against the human Swiss-Prot database and find the best matches. We will map the human annotation information (genes, keywords, GO terms, and pathways) to the sea lion proteins. There are a lot of steps, so it is safer to let the computer do the work.
 
+[Orthologs blog post](https://pwilmart.github.io/blog/2019/10/14/orthologs-annotations)
+
 ---
 
 ![slide 24](images/Slide24.png)
 
 I have two repositories with scripts for doing this. One does the BLAST run and makes a summary table. The other gets the human annotation information and maps it to the sea lion orthologs. We start with a proteomics results table from my pipeline and add statistical testing results to the table. Then we add ortholog and annotation columns to the table. At the end, we have a more informative report to send to clients and publish.
+
+[PAW Blast](https://github.com/pwilmart/PAW_BLAST) <br />
+[Annotations](https://github.com/pwilmart/annotations)
 
 ---
 
