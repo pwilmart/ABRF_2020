@@ -21,7 +21,7 @@ _slide 1_
 
 ![slide 1](images/Slide1.png)
 
-I would like to thank the organizers for this opportunity to tell you about using Github to do scientific communication resource. Github is not a proteomics resource like UniProt. Github is something that you can use to create **your own proteomics resources**.
+I would like to thank the organizers for this opportunity to tell you about using Github for scientific communication. Github is not a proteomics resource like UniProt. Github is something that you can use to create **your own proteomics resources**.
 
 ---
 
