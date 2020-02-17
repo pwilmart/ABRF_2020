@@ -193,7 +193,7 @@ _slide 18_
 
 ![slide 18](images/Slide18.png)
 
-The study had 8 sea lions without any kidney disease and 11 sea lions with kidney disease from leptospirosis infection. The paper used label free spectral counting to compare the two groups. Any quantitative study should check the data before doing the statistical analysis. How did the data from each sample turn out? Do they all look okay or are some of them possible outliers to be excluded? We can always identify more things than we can quantify. The bar is higher for quantification. How do we determine a cutoff for quantification? After checking the data, we can do the statistical testing and visualize the results. We can do all of this with notebooks.
+The study had 8 sea lions without any kidney disease and 11 sea lions with kidney disease from leptospirosis infection. The paper used label free spectral counting to compare the two groups, so I repeated the differential expression testing. Any quantitative study should check the data before doing the statistical analysis. How did the data from each sample turn out? Do they all look okay or are some of them possible outliers to be excluded? We can always identify more things than we can quantify. The bar is higher for quantification. How do we determine a cutoff for quantification? After checking the data, we can do the statistical testing and visualize the results. We can do all of this with notebooks.
 
 ---
 
@@ -221,7 +221,7 @@ _slide 21_
 
 ![slide 21](images/Slide21.png)
 
-We used the Bioconductor package edgeR to do the statistical testing in an R notebook. Here are just a couple of the many visualizations. We have a scatter plot on the left with differential candidates colored by some significance cuts. We are using Benjamini-Hochberg corrected p-values for significance. We can also make MA plots (commonly used in genomics) where we have separated the DE candidates. The unchanged proteins in purple have mostly less than 2-fold changes. The orange proteins with FDR less than 0.01 have much larger than 2-fold changes.
+We used the Bioconductor package edgeR to do the statistical testing in an R notebook. Here are just a couple of the many visualizations. We have a scatter plot on the left with differential candidates colored by some significance cuts. We are using Benjamini-Hochberg corrected p-values for significance. We can also make MA plots (commonly used in genomics) where we have separated the DE candidates. The unchanged proteins in purple have mostly less than 2-fold changes (the dotted lines). The orange proteins with FDR less than 0.01 have much larger than 2-fold changes.
 
 [Differential expression notebook](https://pwilmart.github.io/TMT_analysis_examples/PXD009019_SpC_DE.html) <br />
 [edgeR users guide](https://www.bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf)
@@ -261,7 +261,7 @@ _slide 25_
 
 ![slide 25](images/Slide25.png)
 
-Github is a powerful communication resource we can use. We saw how to use a repository to illustrate data analysis concepts on public data. We used Jupyter notebooks to help tell our story. We needed some custom scripts in the analysis that we have available at Github. The site webpage and blog were used in the story telling, as well as Github markdown in the README files. All of this is easy to share with the proteomics community thanks to stable Github URLs.
+Github is a powerful communication resource we can use. We saw how to use a repository to illustrate data analysis concepts on public data. We used Jupyter notebooks to help tell our story. We needed some custom scripts in the analysis that we have available at Github. The site webpage and blog were used in the story telling, as well as Github markdown in the README files. All of this is easy to share with the proteomics community thanks to Github URLs.
 
 ---
 
