@@ -65,7 +65,7 @@ _slide 6_
 
 ![slide 6](images/Slide6.png)
 
-The Atlantic article was about Mathematica notebooks and open source Jupyter notebooks. These notebooks are web server applications with some connection to a local programming environment. You create and interact with notebooks through web browsers. You can think of notebooks as data analysis stories told through a linear series of cells. These cells can rich text formatting (like a web page), executable code cells (typically Python or R), and the output (graphics and text) from the code cells. I mostly use Jupyter notebooks, but R Markdown is similar. Notebooks are perfect for data analysis stories.
+The Atlantic article was about Mathematica notebooks and open source Jupyter notebooks. These notebooks are web server applications with some connection to a local programming environment. You create and interact with notebooks through web browsers. You can think of notebooks as data analysis stories told through a linear series of cells. These cells can be rich text formatting (like a web page), executable code cells (typically Python or R), and the output (graphics and text) from the code cells. I mostly use Jupyter notebooks, but R Markdown is similar. Notebooks are perfect for data analysis stories.
 
 [Jupyter notebooks](https://jupyter.org/) <br />
 [R Markdown](https://rmarkdown.rstudio.com/) <br />
@@ -111,6 +111,8 @@ _slide 10_
 
 Git and Github are complicated topics that take some serious time and effort to learn. There are good reasons to make the time investment. Journal articles and data archives are not under your control and will get out of date. The content may also be behind paywalls and limit access. What if you had a protocol described in a previously published paper that has changed? How does the community find the updated protocol? The scientific paper is only part of the professional communication we need to do. The version control and sharing features of Github are great for lab protocols, tutorials, and meeting presentations. If you write scripts to do routine tasks, you can share them with the proteomics community. Data analysis skills are valuable, and the content you have at Github is a way to showcase your skills.
 
+> A way to get around the locked down content at journals and data archives would be to create a Github repository that corresponds to the publication and its associated data archive. You can put the repo URL in the paper text (Methods or Acknowledgements) as a "for updated information about methods and protocols used in this paper see: _Github URL_". That URL could be added to the archive metadata. Maybe use first author and year as the repo name (something unique to the paper but not using the journal name). If you have to resubmit to a different journal, you may not be able to alter the data archive meta data. It might make sense for the first author (or last author) to have a Github account for this. Then you have a mechanism for corrections, addition of overlooked content (like sample keys for TMT experiments), and updated/improved protocols.  
+
 This repo shows you how to turn [meeting content into Github content](https://github.com/pwilmart/talk_to_repo_example)
 
 ---
@@ -119,7 +121,7 @@ _slide 11_
 
 ![slide 11](images/Slide11.png)
 
-This is my Github site. There is profile information on the left. You can pin up to 6 repositories to the landing page. I have a couple of repos about IRS data normalization, one for tandem mass tag data analysis examples, my proteomics pipeline software, some utilities for managing FASTA protein databases, and even this talk. Each Github account can also have a dedicated website.
+This is my Github site. There is profile information on the left. You can pin up to 6 repositories to the landing page. I have a couple of repos about IRS data normalization, one for tandem mass tag (TMT) data analysis examples, my proteomics pipeline software, some utilities for managing FASTA protein databases, and even this talk. Each Github account can also have a dedicated website.
 
 https://github.com/pwilmart
 
@@ -131,7 +133,8 @@ _slide 12_
 
 Flexible web hosting and content creation is one of the best features of Github. I mostly use my main Github website for some blogging on proteomics topics. Each individual repository can also have an associated web page. The repo web pages often used for documentation, vignettes, and tutorials. Each repository can also have a README file, written in Github markdown, that gets automatically rendered as web content.
 
-https://pwilmart.github.io/
+https://pwilmart.github.io/ <br />
+More about [Github pages](https://pages.github.com/)
 
 ---
 
@@ -161,7 +164,9 @@ _slide 15_
 
 This is what the contents of the README.md file looks like. Markdown is more concise and readable than HTML source code. It is a little faster and easier to create web content with markdown. Markdown supports many basic web site features: headers, formatted text, hyperlinks, images, list, tables, etc.
 
-The [Atom editor](https://atom.io/) is my favorite for working on README.md files. \<Shift>\<Control>\<M> will show you a markdown preview pane. Super helpful.
+The [Atom editor](https://atom.io/) is my favorite for working on README.md files. \<Shift>\<Control>\<M> will show you a markdown preview pane. Super helpful. <br /> <br />
+Help page for [Github markdown](https://guides.github.com/features/mastering-markdown/) <br />
+See Adam Prichard's [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ---
 
@@ -169,7 +174,7 @@ _slide 16_
 
 ![slide 16](images/Slide16.png)
 
-The README file covers the sea lion analysis steps with my pipeline. It uses the target/decoy method in an interactive and visual way to control PSM FDR. High resolution, accurate mass data is not searched by specifying a narrow parent ion tolerance. Instead, a wider tolerance search is done, and delta masses of the matches are displayed (on the left for 2+ peptides). We set windows on the delta mass peaks and then generate the corresponding conditional score distributions. On the right, we have the score distributions for the 2+ peptides in the zero Da window. The decoy scores are in red and the target scores are in blue. The left histograms are semi-tryptic peptides and the right are fully tryptic peptides. The dotted lines are 1% FDR cutoffs.
+The README file covers the sea lion analysis steps with my pipeline. It uses the target/decoy method in an interactive and visual way to control PSM FDR. High resolution, accurate mass data is not searched by specifying a narrow parent ion tolerance. Instead, a wider tolerance search is done, and delta masses of the matches are displayed (on the left for 2+ peptides). We set windows on the delta mass peaks and then generate the corresponding conditional score distributions. On the right, we have the score distributions for the 2+ peptides in the zero-Da window. The decoy scores are in red and the target scores are in blue. The left histograms are semi-tryptic peptides and the right are fully tryptic peptides. The dotted lines are 1% FDR cutoffs.
 
 [PAW pipeline](https://github.com/pwilmart/PAW_pipeline) <br />
 [FASTA utilities](https://github.com/pwilmart/fasta_utilities)
@@ -196,7 +201,7 @@ _slide 19_
 
 ![slide 19](images/Slide19.png)
 
-The repo has a separate Jupyter R notebook to do some basic quality control processing. The control samples are in blue. The infected samples are in red. The boxplots of the spectral count distributions have 3 infected samples with low count distributions. If we drop those, we still have an 8 by 8 comparison. We can also do some clustering analysis. The plot on the right is a multi-dimensional scaling plot. The two groups are well separated. There are many other R clustering package options that could also be used.
+The repo has a separate Jupyter R notebook to do some basic quality control processing. The control samples are in blue. The infected samples are in red. The boxplots of the spectral count distributions have 3 infected samples with low count distributions. If we drop those, we still have an 8 by 8 comparison. We can also do some clustering analysis. The plot on the right is a multi-dimensional scaling (MDS) plot. The two groups are well separated. There are many other R clustering package options that could also be used.
 
 [QC notebook](https://pwilmart.github.io/TMT_analysis_examples/PXD009019_QC_check.html)
 
@@ -218,7 +223,8 @@ _slide 21_
 
 We used the Bioconductor package edgeR to do the statistical testing in an R notebook. Here are just a couple of the many visualizations. We have a scatter plot on the left with differential candidates colored by some significance cuts. We are using Benjamini-Hochberg corrected p-values for significance. We can also make MA plots (commonly used in genomics) where we have separated the DE candidates. The unchanged proteins in purple have mostly less than 2-fold changes. The orange proteins with FDR less than 0.01 have much larger than 2-fold changes.
 
-[Differential expression notebook](https://pwilmart.github.io/TMT_analysis_examples/PXD009019_SpC_DE.html)
+[Differential expression notebook](https://pwilmart.github.io/TMT_analysis_examples/PXD009019_SpC_DE.html) <br />
+[edgeR users guide](https://www.bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf)
 
 ---
 
