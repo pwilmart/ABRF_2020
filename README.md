@@ -113,7 +113,7 @@ Git and Github are complicated topics that take some serious time and effort to 
 
 > A way to get around the locked down content at journals and data archives would be to create a Github repository that corresponds to the publication and its associated data archive. You can put the repo URL in the paper text (Methods or Acknowledgements) as a "for updated information about methods and protocols used in this paper see: _Github URL_". That URL could be added to the archive metadata. Maybe use first author and year as the repo name (something unique to the paper but not using the journal name). If you have to resubmit to a different journal, you may not be able to alter the data archive meta data. It might make sense for the first author (or last author) to have a Github account for this. Then you have a mechanism for corrections, addition of overlooked content (like sample keys for TMT experiments), and updated/improved protocols.  
 
-This repo shows you how to turn [meeting content into Github content](https://github.com/pwilmart/talk_to_repo_example)
+This repo shows you how to [turn meeting content into Github content](https://github.com/pwilmart/talk_to_repo_example)
 
 ---
 
