@@ -21,7 +21,7 @@ _slide 1_
 
 ![slide 1](images/Slide1.png)
 
-I would like to thank the organizers for this opportunity to tell you about using Github for scientific communication. Github is not a proteomics resource like UniProt. Github is something that you can use to create **your own proteomics resources**.
+I would like to thank the organizers for this opportunity to tell you about using Github for scientific communication. Github is not a proteomics resource like UniProt. Github is something that you can use to create **your own online resources**.
 
 ---
 
@@ -65,7 +65,7 @@ _slide 6_
 
 ![slide 6](images/Slide6.png)
 
-The Atlantic article was about Mathematica notebooks and open source Jupyter notebooks. These notebooks are web server applications with some connection to a local programming environment. You create and interact with notebooks through web browsers. You can think of notebooks as data analysis stories told through a linear series of cells. These cells can be rich text formatting (like a web page), executable code cells (typically Python or R), and the output (graphics and text) from the code cells. I mostly use Jupyter notebooks, but R Markdown is similar. Notebooks are perfect for data analysis stories.
+The Atlantic article talked about Mathematica notebooks and open source Jupyter notebooks. These notebooks are web server applications with some connection to a local programming environment. You create and interact with notebooks through web browsers. You can think of notebooks as data analysis stories told through a linear series of cells. These cells can be rich text formatting (like a web page), executable code cells (typically Python or R), and the output (graphics and text) from the code cells. I mostly use Jupyter notebooks, but R Markdown is similar. Notebooks are perfect for data analysis stories.
 
 [Jupyter notebooks](https://jupyter.org/) <br />
 [R Markdown](https://rmarkdown.rstudio.com/) <br />
@@ -77,7 +77,7 @@ _slide 7_
 
 ![slide 7](images/Slide7.png)
 
-I think that life science research is too complex to replace with notebooks. However, the computational steps in research projects are hard to describe with just text. Notebooks are much better ways to describe these steps. Computational steps are only part of the story for most life science research, so notebooks can augment instead of replace papers. Adding notebooks to the supplemental files makes sense. It turns out that notebooks, version control, and Github all go together.
+I think that life science research is too complex to replace with notebooks. However, the computational steps in research projects are hard to describe with just text. Notebooks are much better ways to describe these steps. Computational steps are only part of the story for most life science research, so notebooks can augment papers instead of replace them. Adding notebooks to the supplemental files makes sense. It turns out that notebooks, version control, and Github all go together.
 
 ---
 
@@ -109,7 +109,7 @@ _slide 10_
 
 ![slide 10](images/Slide10.png)
 
-Git and Github are complicated topics that take some serious time and effort to learn. There are good reasons to make the time investment. Journal articles and data archives are not under your control and will get out of date. The content may also be behind paywalls and limit access. What if you had a protocol described in a previously published paper that has changed? How does the community find the updated protocol? The scientific paper is only part of the professional communication we need to do. The version control and sharing features of Github are great for lab protocols, tutorials, and meeting presentations. If you write scripts to do routine tasks, you can share them with the proteomics community. Data analysis skills are valuable, and the content you have at Github is a way to showcase your skills.
+Git and Github are complicated topics that take some serious time and effort to learn. There are good reasons to make the time investment. Journal articles and data archives are not under your control and will get out of date. The content may also be behind paywalls and limit access. What if you had a protocol described in a previously published paper that has changed? How does the community find the updated protocol? The scientific paper is only part of the professional communication we need to do daily. The version control and sharing features of Github are great for lab protocols, tutorials, and meeting presentations. If you write scripts to do routine tasks, you can share them with the proteomics community. Data analysis skills are valuable, and the content you have at Github is a way to showcase your skills.
 
 > A way to get around the locked down content at journals and data archives would be to create a Github repository that corresponds to the publication and its associated data archive. You can put the repo URL in the paper text (Methods or Acknowledgements) as a "for updated information about methods and protocols used in this paper see: _Github URL_". That URL could be added to the archive metadata. Maybe use first author and year as the repo name (something unique to the paper but not using the journal name). If you have to resubmit to a different journal, you may not be able to alter the data archive meta data. It might make sense for the first author (or last author) to have a Github account for this. Then you have a mechanism for corrections, addition of overlooked content (like sample keys for TMT experiments), and updated/improved protocols.  
 
@@ -221,7 +221,7 @@ _slide 21_
 
 ![slide 21](images/Slide21.png)
 
-We used the Bioconductor package edgeR to do the statistical testing in an R notebook. Here are just a couple of the many visualizations. We have a scatter plot on the left with differential candidates colored by some significance cuts. We are using Benjamini-Hochberg corrected p-values for significance. We can also make MA plots (commonly used in genomics) where we have separated the DE candidates. The unchanged proteins in purple have mostly less than 2-fold changes (the dotted lines). The orange proteins with FDR less than 0.01 have much larger than 2-fold changes.
+We used the Bioconductor package edgeR to do the statistical testing in an R notebook. Here are just a couple of the many visualizations. We have a scatter plot on the left with differential candidates colored by some significance cuts. We are using Benjamini-Hochberg corrected p-values for significance. We can also make MA plots (commonly used in genomics) where we have separate MA plots for each DE candidate category. The unchanged proteins in purple have mostly less than 2-fold changes (the dotted lines). The highly significant orange proteins with FDR less than 0.01 have much larger than 2-fold changes.
 
 [Differential expression notebook](https://pwilmart.github.io/TMT_analysis_examples/PXD009019_SpC_DE.html) <br />
 [edgeR users guide](https://www.bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf)
