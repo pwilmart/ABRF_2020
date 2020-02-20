@@ -240,7 +240,7 @@ _slide 23_
 
 ![slide 23](images/Slide23.png)
 
-Mapping protein lists from less common species to human or mouse is something I end up doing all the time. It is a little complicated and was perfect for a blog post. We are basically going to use a locally installed BLAST program to align all sea lion sequences against the human Swiss-Prot database and find the best matches. We will map the human annotation information (genes, keywords, GO terms, and pathways) to the sea lion proteins. There are a lot of steps, so it is safer to let the computer do the work.
+Mapping protein lists from less common species to human or mouse is something I end up doing all the time. It is a little complicated and was perfect for a blog post. We are basically going to use a locally installed BLAST program to align all sea lion sequences against the human Swiss-Prot database and find the best matches. We will map the human annotation information (genes, keywords, GO terms, and pathways) to the sea lion proteins. There are a lot of steps, so it is safer to let the computer do the busywork.
 
 [Orthologs blog post](https://pwilmart.github.io/blog/2019/10/14/orthologs-annotations)
 
