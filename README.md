@@ -95,7 +95,7 @@ _slide 9_
 
 ![slide 9](images/Slide9.png)
 
-When you are trying to learn about Git and Github, it helpful to have a mental picture of how the pieces connect. Github itself is a collection of repositories that reside in the cloud. Copies of those repositories are mirrored on your local computers. That is the distributed part. For example, I go to OHSU and work on some code. I work on a local copy of the files in a Git repository. I save my work by committing the changes. I can push those changes to the corresponding Github repo, cycle home, pull the updated code to my home PC, and continue my work. Lather, rise, and repeat. Other users may just be fetching code from the repo to run on their PCs.
+When you are trying to learn about Git and Github, it helps to have a mental picture of how the pieces connect. Github itself is a collection of repositories that reside in the cloud. Copies of those repositories are mirrored on your local computers. That is the distributed part. For example, I go to OHSU and work on some code. I work on a local copy of the files in a Git repository. I save my work by committing the changes. I can push those changes to the corresponding Github repo, cycle home, pull the updated code to my home PC, and continue my work. Lather, rise, and repeat. Other users may just be fetching code from the repo to run on their PCs.
 
 An outstanding book: [Happy Git with R](https://happygitwithr.com/) <br />
 [Git downloads](https://git-scm.com/downloads) <br />
@@ -142,7 +142,7 @@ _slide 13_
 
 ![slide 13](images/Slide13.png)
 
-One of the things you can do at Github is demonstrate data analysis topics using publicly available data. Real world examples are a more powerful way to reach your audience. I have an interest in how to analyze data from less common organisms. I heard a presentation from Ben Neely about proteomics on marine mammals at last year’s ASMS meeting. Their group published a paper about California sea lion urine samples to probe kidney disease. When that paper was published, a sea lion genome was not available. They used a combined seal and walrus protein database. The sea lion genome has since been sequenced and I was curious how the results would change if a sea lion protein database was used. I repeated the analysis with the sea lion database and my open source pipeline that uses MSConvert for RAW file access and Comet for database searching.
+One of the things you can do at Github is demonstrate data analysis topics using publicly available data. Real world examples are a more powerful way to reach your audience. I have an interest in how to analyze data from less common organisms. I saw a presentation from Ben Neely about proteomics on marine mammals at last year’s ASMS meeting. Their group published a paper about California sea lion urine samples to probe kidney disease. When that paper was published, a sea lion genome was not available. They used a combined seal and walrus protein database. The sea lion genome has since been sequenced and I was curious how the results would change if a sea lion protein database was used. I repeated the analysis with the sea lion database and my open source pipeline that uses MSConvert for RAW file access and Comet for database searching.
 
 JPR article: [Neely, et al.](https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.8b00416)
 
