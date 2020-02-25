@@ -134,7 +134,8 @@ _slide 12_
 Flexible web hosting and content creation is one of the best features of Github. I mostly use my main Github website for some blogging on proteomics topics. Each individual repository can also have an associated web page. The repo web pages are often used for documentation, vignettes, and tutorials. Each repository can also have a README file, written in Github markdown, that gets automatically rendered as web content.
 
 https://pwilmart.github.io/ <br />
-More about [Github pages](https://pages.github.com/)
+More about [Github pages](https://pages.github.com/) <br />
+A new tool for easy blogging: [fast pages](https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html)
 
 ---
 
