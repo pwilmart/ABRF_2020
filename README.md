@@ -37,7 +37,7 @@ _slide 3_
 
 ![slide 3](images/Slide3.png)
 
-Now everything is electronic – journals and papers. Here is a 2017 MCP paper where the IRS normalization method for multi-plex TMT experiments was first described. We have the article in there somewhere, but there is a lot screen real estate devoted to other things.
+Now everything is electronic. Here is a 2017 MCP paper where the IRS normalization method for multi-plex TMT experiments was first described. We have the article in there somewhere, but there is a lot screen real estate devoted to other things.
 
 Link to MCP article: [Plubell, et al.](https://www.mcponline.org/content/16/5/873.short)
 
@@ -65,7 +65,7 @@ _slide 6_
 
 ![slide 6](images/Slide6.png)
 
-The Atlantic article talked about Mathematica notebooks and open source Jupyter notebooks. These notebooks are web server applications with some connection to a local programming environment. You create and interact with notebooks through web browsers. You can think of notebooks as data analysis stories told through a linear series of cells. These cells can be rich text formatting (like a web page), executable code cells (typically Python or R), and the output (graphics and text) from the code cells. I mostly use Jupyter notebooks, but R Markdown is similar. Notebooks are perfect for telling data analysis stories.
+The Atlantic article talked about Mathematica notebooks and open source Jupyter notebooks. These notebooks are web server applications with some connection to a local programming environment. You create and interact with notebooks through web browsers. You can think of notebooks as data analysis stories told through a linear series of cells. These cells can be rich text formatting (like a web page), executable code cells (typically Python or R), and the output (graphics and text) from the code cells. I mostly use Jupyter notebooks, but R Markdown is similar. Notebooks are ideal for telling data analysis stories.
 
 [Jupyter notebooks](https://jupyter.org/) <br />
 [R Markdown](https://rmarkdown.rstudio.com/) <br />
@@ -77,7 +77,7 @@ _slide 7_
 
 ![slide 7](images/Slide7.png)
 
-I think that life science research is too complex to replace with notebooks. However, the computational steps in research projects are hard to describe with just text. Notebooks are much better ways to describe these steps. Computational steps are only part of the story for most life science research, so notebooks can augment papers instead of replace them. Adding notebooks to the supplemental files makes sense. It turns out that notebooks, version control, and Github all go together.
+I think that life science research is too complex to replace with notebooks. However, the computational steps in research projects are hard to describe with just text. Notebooks are a better ways to describe these steps. Computational steps are only part of the story for most life science research, so notebooks should augment papers instead of replace them (add notebooks to the supplemental files). It turns out that notebooks, version control, and Github all go together.
 
 ---
 
@@ -85,7 +85,7 @@ _slide 8_
 
 ![slide 8](images/Slide8.png)
 
-Alright, we are finally talking about Github! It is the world’s largest software hosting service and uses Git distributed version control. Github has grown rapidly and is enormous. Github has strong support for Jupyter notebooks and hosts about 6.4 million notebooks currently. Github has a lot of additional functionality: it facilitates collaborative work on software (and other) projects, it acts like a syncing service to protect your files, and it supports web content creation and hosting.
+Github is the world’s largest software hosting service and uses Git distributed version control. Github has grown rapidly and is enormous. Github has strong support for Jupyter notebooks and hosts about 6.4 million notebooks currently. Github has a lot of additional functionality: it facilitates collaborative work on software (and other) projects, it acts like a syncing service to protect your files, and it supports web content creation and hosting.
 
 [Wikipedia entry for Github](https://en.wikipedia.org/wiki/GitHub)
 
@@ -95,7 +95,7 @@ _slide 9_
 
 ![slide 9](images/Slide9.png)
 
-When you are trying to learn about Git and Github, it helps to have a mental picture of how the pieces connect. Github itself is a collection of repositories that reside in the cloud. Copies of those repositories are mirrored on your local computers. That is the distributed part. For example, I go to OHSU and work on some code. I work on a local copy of the files in a Git repository. I save my work by committing the changes. I can push those changes to the corresponding Github repo, cycle home, pull the updated code to my home PC, and continue my work. Lather, rise, and repeat. Other users may just be fetching code from the repo to run on their PCs.
+When you are trying to learn about Git and Github, it helps to have a mental picture of how the pieces connect. Github itself is a collection of repositories that reside in the cloud. Copies of those repositories are mirrored on your local computers. That is the distributed part. For example, I go to OHSU and work on some code. I work on a local copy of the files in a Git repository. I save my work by committing the changes. I can push those changes to the corresponding Github repo, cycle home, pull the updated code to my home PC, and continue my work. Lather, rise, and repeat (or maybe pull, commit, and push). Other users may just be fetching code from the repo to run on their PCs.
 
 An outstanding book: [Happy Git with R](https://happygitwithr.com/) <br />
 [Git downloads](https://git-scm.com/downloads) <br />
@@ -109,7 +109,7 @@ _slide 10_
 
 ![slide 10](images/Slide10.png)
 
-Git and Github are complicated topics that take some serious time and effort to learn. There are good reasons to make the time investment. Journal articles and data archives are not under your control and will get out of date. The content may also be behind paywalls and limit access. What if you had a protocol described in a previously published paper that has changed? How does the community find the updated protocol? The scientific paper is only part of the professional communication we need to do daily. The version control and sharing features of Github are great for lab protocols, tutorials, and meeting presentations. If you write scripts to do routine tasks, you can share them with the proteomics community. Data analysis skills are valuable, and the content you have at Github is a way to showcase your skills.
+Git and Github are complicated topics that take some serious time and effort to learn. There are good reasons to make the time investment. Journal articles and data archives are not under your control and will get out of date. The content may also be behind paywalls and limit access. What if you had a protocol described in a previously published paper that has changed? How does the community find the updated protocol? The scientific paper is only part of the professional communication we need to do daily. The version control and sharing features of Github are great for lab protocols, tutorials, and meeting presentations. If you write scripts to do routine tasks, you can share them with the proteomics community. Data analysis skills are valuable, and the content you have at Github showcases your skills.
 
 > A way to get around the locked down content at journals and data archives would be to create a Github repository that corresponds to the publication and its associated data archive. You can put the repo URL in the paper text (Methods or Acknowledgements) as a "for updated information about methods and protocols used in this paper see: _Github URL_". That URL could be added to the archive metadata. Maybe use first author and year as the repo name (something unique to the paper but not using the journal name). If you have to resubmit to a different journal, you may not be able to alter the data archive meta data. It might make sense for the first author (or last author) to have a Github account for this. Then you have a mechanism for corrections, addition of overlooked content (like sample keys for TMT experiments), and updated/improved protocols.  
 
@@ -131,7 +131,7 @@ _slide 12_
 
 ![slide 12](images/Slide12.png)
 
-Flexible web hosting and content creation is one of the best features of Github. I mostly use my main Github website for some blogging on proteomics topics. Each individual repository can also have an associated web page. The repo web pages are often used for documentation, vignettes, and tutorials. Each repository can also have a README file, written in Github markdown, that gets automatically rendered as web content.
+Flexible web hosting and content creation is one of the best features of Github. I mostly use my main Github website for some blogging on proteomics topics. Each individual repository can also have an associated web page. The repo web pages are often used for documentation and tutorials. Each repository can also have a README file, written in Github markdown, that gets automatically rendered as web content.
 
 https://pwilmart.github.io/ <br />
 More about [Github pages](https://pages.github.com/) <br />
@@ -143,9 +143,10 @@ _slide 13_
 
 ![slide 13](images/Slide13.png)
 
-One of the things you can do at Github is demonstrate data analysis topics using publicly available data. Real world examples are a more powerful way to reach your audience. I have an interest in how to analyze data from less common organisms. I saw a presentation from Ben Neely about proteomics on marine mammals at last year’s ASMS meeting. Their group published a paper about California sea lion urine samples to probe kidney disease. When that paper was published, a sea lion genome was not available. They used a combined seal and walrus protein database. The sea lion genome has since been sequenced and I was curious how the results would change if a sea lion protein database was used. I repeated the analysis with the sea lion database and my open source pipeline that uses MSConvert for RAW file access and Comet for database searching.
+One of the things you can do at Github is demonstrate data analysis topics using publicly available data. Real world examples are a powerful way to reach your audience. I have an interest in how to analyze data from less common organisms. I saw a presentation from Ben Neely about proteomics on marine mammals at last year’s ASMS meeting. Their group published a paper about California sea lion urine samples to probe kidney disease. When that paper was published, a sea lion genome was not available. They used a combined seal and walrus protein database. The sea lion genome has since been sequenced and I was curious how the results would change if a sea lion protein database was used. I repeated the analysis with the sea lion database and my open source pipeline that uses MSConvert for RAW file access and Comet for database searching.
 
 JPR article: [Neely, et al.](https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.8b00416)
+The [ASMS presentation](https://zenodo.org/record/3687161)
 
 ---
 
@@ -212,7 +213,7 @@ _slide 20_
 
 ![slide 20](images/Slide20.png)
 
-Each biological sample was analyzed in a single LC run. We had close to 2,300 identified proteins. How many of those can we quantify? If we compute the average spectral count per protein for the samples, we can sort our count table by decreasing average counts. We can count the cells with missing data in the table as a function of protein, from the highest abundance to the lowest abundance (the average SpC) and count all the cells. We can plot the average SpC on the x-axis and the fraction of missing data on the y-axis using another notebook. When we get to small average SpC, we see a sharp rise in missing data. The dotted line is an average SpC of 2.5. That has 669 quantifiable proteins. While this is only 30% of the identified proteins, those 669 proteins account for almost 90% of the total spectral counts observed in the experiment. Using such a cutoff eliminates most of the missing data and its complications.
+Each biological sample was analyzed in a single LC run. We had close to 2,300 identified proteins. How many of those can we quantify? If we compute the average spectral count per protein for the samples, we can sort our count table by decreasing average counts. We can count the cells with missing data in the table as a fraction all the cells as a function of the average SpC. We can plot the average SpC on the x-axis and the fraction of missing data on the y-axis using another notebook. When we get to small average SpC, we see a sharp rise in missing data. The dotted line is an average SpC of 2.5. That has 669 quantifiable proteins. While this is only 30% of the identified proteins, those 669 proteins account for almost 90% of the total spectral counts observed in the experiment. Using a cutoff like this eliminates most of the missing data and its complications.
 
 [Quantifiable cutoff notebook](https://pwilmart.github.io/TMT_analysis_examples/PXD009019_average_missing.html)
 
@@ -233,7 +234,7 @@ _slide 22_
 
 ![slide 22](images/Slide22.png)
 
-The sea lion database made a big improvement. We identified close to 2,300 urine proteins. We had 400 differential expression candidates. What do we do with the results? We only really have usable annotations for human and mouse among higher eukaryotes. The degree of annotations for other species will be variable. We need to map the sea lion proteins to human orthologs and annotate the sea lion proteins with the corresponding human ortholog annotations.
+The sea lion database made a big improvement. We identified close to 2,300 urine proteins. We had 410 differential expression candidates. What do we do with the results? We need some information about the proteins (functions and pathways). We only really have usable annotations for human and mouse among higher eukaryotes. We need to map the sea lion proteins to human orthologs and annotate the sea lion proteins with the corresponding human ortholog annotations.
 
 ---
 
@@ -241,7 +242,7 @@ _slide 23_
 
 ![slide 23](images/Slide23.png)
 
-Mapping protein lists from less common species to human or mouse is something I end up doing all the time. It is a little complicated and was perfect for a blog post. We are basically going to use a locally installed BLAST program to align all sea lion sequences against the human Swiss-Prot database and find the best matches. We will map the human annotation information (genes, keywords, GO terms, and pathways) to the sea lion proteins. There are a lot of steps, so it is safer to let the computer do the busywork.
+Mapping protein lists from less common species to human or mouse is something I end up doing all the time. It is a little complicated and is a perfect topic for a blog post. We are basically going to use a locally installed BLAST program to align all sea lion sequences against the human Swiss-Prot database and find the best matches. We will map the human annotation information (genes, keywords, GO terms, and pathways) to the sea lion proteins. There are a lot of steps we have to do a couple of thousand times, so it is safer to let the computer do the busywork.
 
 [Orthologs blog post](https://pwilmart.github.io/blog/2019/10/14/orthologs-annotations)
 
@@ -251,7 +252,7 @@ _slide 24_
 
 ![slide 24](images/Slide24.png)
 
-I have two repositories with scripts for doing this. One does the BLAST run and makes a summary table. The other gets the human annotation information and maps it to the sea lion orthologs. We start with a proteomics results table from my pipeline and add statistical testing results to the table. Then we add ortholog and annotation columns to the table. At the end, we have a more informative report to send to clients and publish.
+I have two repositories with scripts for doing this. One does the BLAST run and makes a summary table. The other gets the human annotation information and maps it to the sea lion orthologs. We start with a proteomics results table from my pipeline and add statistical testing results to the table. Then we add ortholog and annotation columns to the table. At the end, we have a more complete report to send to clients and publish.
 
 [PAW Blast](https://github.com/pwilmart/PAW_BLAST) <br />
 [Annotations](https://github.com/pwilmart/annotations)
